@@ -1340,18 +1340,44 @@ a {
     padding: 1rem;
   }
 }
-.cid-v0EjSas8i5 {
+.cid-v0F7KsuUPj {
   display: flex;
-  background-image: url("../../../assets/images/background1.jpg");
+  padding-top: 20rem;
+  padding-bottom: 4rem;
 }
-.cid-v0EjSas8i5 .mbr-overlay {
-  background-color: #f92c50;
-  opacity: 0.5;
+@media (min-width: 768px) {
+  .cid-v0F7KsuUPj {
+    align-items: flex-end;
+  }
+  .cid-v0F7KsuUPj .row {
+    justify-content: flex-start;
+  }
+  .cid-v0F7KsuUPj .content-wrap {
+    padding: 1rem 3rem;
+  }
 }
-.cid-v0EjSas8i5 .mbr-fallback-image.disabled {
+@media (max-width: 991px) and (min-width: 768px) {
+  .cid-v0F7KsuUPj .content-wrap {
+    min-width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .cid-v0F7KsuUPj {
+    -webkit-align-items: center;
+    align-items: flex-end;
+  }
+  .cid-v0F7KsuUPj .mbr-row {
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+  .cid-v0F7KsuUPj .content-wrap {
+    width: 100%;
+  }
+}
+.cid-v0F7KsuUPj .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-v0EjSas8i5 .mbr-fallback-image {
+.cid-v0F7KsuUPj .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -1359,47 +1385,16 @@ a {
   height: 100%;
   position: absolute;
   top: 0;
+  background-image: url("../../../assets/images/background1.jpg");
 }
-.cid-v0EjSas8i5 .content-wrap {
-  padding: 5rem 1rem;
+.cid-v0F7KsuUPj .mbr-section-title,
+.cid-v0F7KsuUPj .mbr-section-subtitle {
+  text-align: left;
+  color: #ffc091;
 }
-@media (min-width: 992px) {
-  .cid-v0EjSas8i5 .content-wrap {
-    padding: 5rem 3rem;
-  }
-}
-@media (min-width: 768px) {
-  .cid-v0EjSas8i5 {
-    align-items: center;
-  }
-  .cid-v0EjSas8i5 .row {
-    justify-content: center;
-  }
-}
-@media (max-width: 991px) and (min-width: 768px) {
-  .cid-v0EjSas8i5 .content-wrap {
-    min-width: 50%;
-  }
-}
-@media (max-width: 767px) {
-  .cid-v0EjSas8i5 {
-    -webkit-align-items: center;
-    align-items: center;
-  }
-  .cid-v0EjSas8i5 .mbr-row {
-    -webkit-justify-content: center;
-    justify-content: center;
-  }
-  .cid-v0EjSas8i5 .content-wrap {
-    width: 100%;
-  }
-}
-.cid-v0EjSas8i5 .mbr-section-title {
-  text-align: center;
-}
-.cid-v0EjSas8i5 .mbr-text,
-.cid-v0EjSas8i5 .mbr-section-btn {
-  text-align: center;
+.cid-v0F7KsuUPj .mbr-text,
+.cid-v0F7KsuUPj .mbr-section-btn {
+  text-align: left;
 }
 .cid-v0EjUPpVEN {
   padding-top: 6rem;
